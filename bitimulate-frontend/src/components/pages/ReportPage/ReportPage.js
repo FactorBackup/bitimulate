@@ -14,7 +14,7 @@ const ReportPage = ({match}) => {
   return (
     <PageTemplate header={<HeaderContainer solid/>} padding>
       <Helmet>
-        <title>{`${displayName}님의 리포트 :: Bitimulate`}</title>
+        <title>{`${displayName}님의 리포트 :: Blockasset`}</title>
         <meta name="description" content={`${displayName}님의 모의 거래소 리포트`}/>
       </Helmet>
       <div className={cx('block')}>

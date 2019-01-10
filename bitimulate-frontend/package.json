@@ -75,7 +75,7 @@
     "test": "node scripts/test.js --env=jsdom",
     "storybook": "NODE_PATH=src start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "deploy": "aws s3 sync ./build s3://s3.bitimulate.com/ && aws cloudfront create-invalidation --distribution-id E3CLIURIVD13SA --paths / /index.html /error.html /service-worker.js /manifest.json /favicon.ico"
+    "deploy": "aws s3 sync ./build s3://blockasset.us/ && aws cloudfront create-invalidation --distribution-id E3CLIURIVD13SA --paths / /index.html /error.html /service-worker.js /manifest.json /favicon.ico"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -89,7 +89,7 @@
       "<rootDir>/src/**/?(*.)(spec|test).js?(x)"
     ],
     "testEnvironment": "node",
-    "testURL": "http://localhost",
+    "testURL": "http://.0.2:3000",
     "transform": {
       "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
       "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
@@ -122,5 +122,5 @@
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6"
   },
-  "proxy": "https://api.bitimulate.com/"
+  "proxy": "https://api.blockasset.us/"
 }

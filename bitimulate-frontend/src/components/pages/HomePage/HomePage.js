@@ -19,9 +19,9 @@ const HomePage = () => {
     <PageTemplate 
       header={<HeaderContainer/>}>
       <Helmet>
-        <title>Bitimulate - 가상화폐 모의 거래소</title>
+        <title>Blockasset - 가상화폐 모의 거래소</title>
         <meta name="keywords" content="가상화폐, 암호화폐, 모의, 거래, 거래소, 비트코인, 이더리움, BTC, ETH"/>
-        <meta name="description" content="가상화폐 / 암호화폐 모의 거래소 Bitimulate (비티뮬레이트), 과연 당신은 가상화폐 시장에서 수익을 낼 수 있을까요? 모의거래를 통해 알아보세요."/>
+        <meta name="description" content="가상화폐 / 암호화폐 모의 거래소 Blockasset, 과연 당신은 가상화폐 시장에서 수익을 낼 수 있을까요? 모의거래를 통해 알아보세요."/>
       </Helmet>
       <SocketSubscriber channel="TICKER"/>
       <PolyBackground home>
@@ -29,7 +29,7 @@ const HomePage = () => {
       </PolyBackground>
       <BgColor color="#f6f6f6"/>
       <div className={cx('block', 'responsive')}>
-        <h2>비티뮬레이트에선, 현재 총 <b>69</b>개의 가상화폐를 지원합니다.</h2>
+        <h2>블록에셋에선, 현재 총 <b>69</b>개의 가상화폐를 지원합니다.</h2>
         <CoinMainContainer/>
         <div className={cx('more')}>
           <Link className={cx('more-button')} to="/trade">
@@ -46,11 +46,11 @@ const HomePage = () => {
               <p>수익률을 다른 사람들과 경쟁해보세요. <br/>그리고, 다른사람들의 거래 전략을 확인해보세요!</p>
             </div>
           </Link>
-          <a className={cx('column')} href="https://github.com/velopert/bitimulate" target="_blank" rel="noopener noreferrer">
+          <a className={cx('column')} href="http://autotrade.co19.kr" target="_blank" rel="noopener noreferrer">
             <GithubIcon/>
             <div className={cx('description')}>
-              <h3>오픈소스</h3>
-              <p>비티뮬레이트는 오픈소스 프로젝트 입니다. <br/>Pull Request는 언제나 환영입니다.</p>
+              <h3>자동트레이딩</h3>
+              <p>블록에셋는 자동트레이딩 서비스을 제공합니다. <br/>안전한 시뮬레이션은 언제나 환영입니다.</p>
             </div>
           </a>
         </div>
@@ -63,10 +63,10 @@ const HomePage = () => {
       </div>
       <div className={cx('footer')}>
         <div className={cx('email')}>
-          <EmailIcon/> support@bitimulate.com
+          <EmailIcon/> support@blockasset.com
         </div>
         <div className={cx('copyright')}>
-          Copyright © 2017 Bitimulate
+          Copyright © 2017 Blockasset
         </div>
         <div className={cx('copyright')}>
         <Link to="/terms">개인정보취급방침</Link>

@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <div>
         <Helmet>
-          <title>Bitimulate - 가상화폐 모의 거래소</title>
+          <title>Blockasset - 가상화폐 모의 거래소</title>
         </Helmet>
         <Route exact path ="/" component={HomePage}/>
         <Route path="/trade" component={TradePage}/>

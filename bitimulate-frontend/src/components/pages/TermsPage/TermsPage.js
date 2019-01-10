@@ -81,8 +81,8 @@ const TermsPage = ({match}) => {
       <h2 id="7-개인정보-관리-책임자-및-담당자">7. 개인정보 관리 책임자 및 담당자</h2>
       
       <ul>
-      <li>성명: Bitimulate </li>
-      <li><p>이메일: support@bitimulate.com</p>
+      <li>성명: Blockasset </li>
+      <li><p>이메일: support@blockasset.com</p>
       
       <p>기타 개인정보침해에 대한 신고나 상담이 필요한 경우에는 아래 기관에 문의하시기 바랍니다.</p>
       

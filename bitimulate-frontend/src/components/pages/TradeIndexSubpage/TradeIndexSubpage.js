@@ -10,7 +10,7 @@ const TradeIndexSubpage = () => {
   return (
     <div className={cx('trade-index-subpage')}>
       <Helmet>
-        <title>거래소 :: Bitimulate</title>
+        <title>거래소 :: Blockasset</title>
         <meta name="description" content="가상화폐 종합 시세 확인하기"/>
       </Helmet>
       <TradeIndexOptionsContainer/>
